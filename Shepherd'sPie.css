@@ -1,0 +1,138 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen {
+  body {
+    margin: 2em;
+    color: black;
+    background-color: rgb(209, 198, 198);
+  }
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* ======== FIRST PART...======== */
+
+h1 {
+  text-shadow: 1px 1px 2px #599bb3;
+}
+.h-center,
+th,
+td {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 20px;
+}
+.button-one {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.button-one:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 15px 15px;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  background-color: #77b55a;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  font-size: 20px;
+}
+button:hover {
+  background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+  background-color: #72b352;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  margin: 25px 25px;
+}
+#ingredients {
+  margin-left: 20px;
+}
+
+/* ======== SECOND PART...======== */
+
+.register,
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 20px;
+}
+.inputRegister {
+  margin-bottom: 10px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tandC {
+  width: 20px;
+}
+.form-check {
+  max-width: 1200px;
+  padding: 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ======== THIRD PART...======== */
+
+h1 {
+  text-align: center;
+  color: rgb(31, 31, 51);
+  text-decoration-color: green;
+}
+h4 {
+  font-weight: lighter;
+}
+.recipe-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4:hover {
+  background-color: rgb(185, 226, 187);
+  color: black;
+}
+.header-questions {
+  text-shadow: 1px 1px 5px rgb(29, 167, 29);
+}
+.main-header-part3 {
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(9, 68, 12),
+    0 0 5px rgb(2, 53, 15);
+}
